@@ -1,0 +1,17 @@
+# Node
+node_modules/
+build/
+.env
+
+# Python/Django
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+db.sqlite3 # Neenga dummy data vachiruntha itha thavirukkalam, aana live data na ignore pandrathu nallathu.
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
