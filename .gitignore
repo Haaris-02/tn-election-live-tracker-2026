@@ -9,7 +9,7 @@ __pycache__/
 *$py.class
 venv/
 env/
-db.sqlite3 # Neenga dummy data vachiruntha itha thavirukkalam, aana live data na ignore pandrathu nallathu.
+
 .env
 
 # OS Files
