@@ -120,4 +120,10 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# CORS settings
 CORS_ALLOW_ALL_ORIGINS = True
+# Django settings.py la intha madhiri irukkanum:
+CORS_ALLOWED_ORIGINS = [
+    "https://unga-election-tracker-frontend.vercel.app", # Unga Vercel URL
+    "http://localhost:3000",
+]
